@@ -5,8 +5,6 @@ const cors= require ('cors')
 app.use(express.json());
 app.use(cors());
 const PORT = 3001
-const {getUser} = require('../BackConnec/controllers/getUserController');
-
 
 app.listen(PORT, () => {
         // Fonction éxecutée lorsque l'application a démarré
